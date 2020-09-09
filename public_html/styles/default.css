@@ -8,13 +8,8 @@ nav {
 }
 
 footer {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 0;
     background-color: #49A9F2;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 a {
