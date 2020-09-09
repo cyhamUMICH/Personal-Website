@@ -1,1 +1,4 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.cyham.com/$1 [R,L]
 DirectoryIndex under_construction.html home.html
