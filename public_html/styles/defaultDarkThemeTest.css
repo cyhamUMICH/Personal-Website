@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  background-color: #0C3245;
+}
+
+nav {
+  background-color: #19668A;
+  margin-bottom: 50px;
+}
+
+footer {
+    background-color: #19668A;
+    padding: 10px;
+}
+
+a, a:hover {
+  color: #FFFFFF;
+}
+
+#Logo {
+  height: 120px;
+}
+
+#Construction {
+  margin-bottom: 10px;
+  height: 100px;
+}

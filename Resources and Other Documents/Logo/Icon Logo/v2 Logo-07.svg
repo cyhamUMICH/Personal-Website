@@ -16,7 +16,7 @@
       .cls-1, .cls-5 {
         stroke-width: 0.5px;
       }
-		/* Text Color */
+
       .cls-2 {
         fill: #fff;
       }

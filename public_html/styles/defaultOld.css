@@ -1,0 +1,25 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  background-color: #49A9F2;
+  margin-bottom: 50px;
+}
+
+footer {
+    background-color: #49A9F2;
+    padding: 10px;
+}
+
+a {
+  color: #001A70;
+}
+
+#Logo {
+  height: 120px;
+}
+
+#Construction {
+  margin-bottom: 10px;
+}

@@ -1,25 +1,50 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: black;
 }
 
 nav {
-  background-color: #49A9F2;
+  background-color: #0C3245;
   margin-bottom: 50px;
 }
 
-footer {
-    background-color: #49A9F2;
-    padding: 10px;
+.navbar {
+    border-radius: 0px;
 }
 
-a {
-  color: #001A70;
+footer {
+    background-color: #0C3245;
+    padding: 10px;
+    color: white;
+}
+
+footer a {
+  color: white;
+}
+
+main a {
+  color: #F17300;
+}
+
+a:hover {
+  color: #F17300;
 }
 
 #Logo {
   height: 120px;
 }
 
+@media only screen and (max-width: 800px) {
+  #AnimatedLogo {
+    display: none;
+  }
+}
+
+#AnimatedLogo {
+    height: 100px;
+}
+
 #Construction {
   margin-bottom: 10px;
+  height: 100px;
 }
