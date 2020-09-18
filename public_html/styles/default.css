@@ -1,15 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   color: black;
 }
 
-nav {
+nav, .navbar {
   background-color: #0C3245;
-  margin-bottom: 50px;
-}
-
-.navbar {
-    border-radius: 0px;
+  border-radius: 0px;
 }
 
 footer {
@@ -26,25 +23,37 @@ main a {
   color: #F17300;
 }
 
-a:hover {
+a:hover, a:focus {
   color: #F17300;
 }
 
 #Logo {
-  height: 120px;
-}
-
-@media only screen and (max-width: 800px) {
-  #AnimatedLogo {
-    display: none;
-  }
+  width: 6.25%;
+  max-width: 120px;
+  min-width: 50px;
 }
 
 #AnimatedLogo {
-    height: 100px;
+    width: 35%;
+    max-width: 672px;
+    min-width: 280px;
 }
 
 #Construction {
   margin-bottom: 10px;
-  height: 100px;
+  max-width: 100px;
+  width: 15%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  #AnimatedLogo {
+    display: none;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: black;
+  }
 }
