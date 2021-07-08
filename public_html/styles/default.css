@@ -2,59 +2,78 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: black;
-  padding-bottom: 70px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-nav, .navbar {
-  background-color: #0C3245;
-  border-radius: 0px;
+header {
+  flex: 0 1 auto;
+}
+
+main {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
-    background-color: #0C3245;
-    padding: 10px;
-    color: white;
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0C3245;
+  color: white;
 }
 
-footer a {
-  color: white;
+nav {
+  background-color: #0C3245;
 }
 
 main a {
   color: #F17300;
 }
 
-a:hover, a:focus {
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover, footer a:focus {
   color: #F17300;
+  text-decoration: underline;
 }
 
-#Logo {
-  width: 6.25%;
-  max-width: 120px;
-  min-width: 50px;
+.center-text {
+  text-align: center;
 }
 
-#AnimatedLogo {
-    width: 35%;
-    max-width: 672px;
-    min-width: 280px;
+.text {
+  line-height: 1.5em;
 }
 
-#Construction {
-  margin-bottom: 10px;
+#construction {
+  margin: 1em 0 0 0;
   max-width: 100px;
   width: 15%;
 }
 
+#logo {
+  margin-left: 1em;
+  width: 15%;
+  max-width: 120px;
+  min-width: 50px;
+}
 
 @media only screen and (max-width: 768px) {
-  #AnimatedLogo {
-    display: none;
-  }
-
   body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: black;
+  }
+
+  #logo {
+    content: url("../images/logo_no_name_white.svg");
   }
 }

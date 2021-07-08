@@ -6,34 +6,27 @@
     <!-- Roboto font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" >
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/default.css">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.svg">
+    <script  type="text/javascript" src="scripts/default.js"></script>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-md fixed-top">
-        <img id="Logo" src="images/CH Logo.svg" alt="Logo">
-        <!--<img id="AnimatedLogo" src="images/Logo Animated.svg" alt="Caroline Ham Software Engineer">-->
+    <header id="header">
+      <nav id="navbar">
+        <img id="logo" src="images/logo_white.svg" alt="Logo">
       </nav>
     </header>
-    <main role="main" class="container">
-      <div class="row text-center">
-        <img id="Construction" src="images/carpenter-tools.svg" alt="Construction Symbol">
-      </div>
-      <div class="row text-center">
-          <p>Welcome to my website! It's currently being developed, so there isn't a lot here.
-          <br>Check out my progress on <a href="http://github.com/cyhamUMICH" title="Caroline's GitHub">GitHub</a> or
-            <a href="https://trello.com/b/jpZQvmgx/carolines-personal-website" title="Trello board for this website">Trello</a>, and
-          <br>connect with me on <a href="https://linkedin.com/in/cyham/" title="Caroline's LinekdIn">LinkedIn</a>!</p>
+    <main id="main">
+      <img id="construction" src="images/carpenter-tools.svg" alt="Construction Symbol">
+      <div class="center-text text">
+        <p>Welcome to my website! It's currently being developed, so there isn't a lot here.
+        <br>Check out my progress on <a href="http://github.com/cyhamUMICH" title="Caroline's GitHub">GitHub</a> or
+          <a href="https://trello.com/b/jpZQvmgx/carolines-personal-website" title="Trello board for this website">Trello</a>, and
+        <br>connect with me on <a href="https://linkedin.com/in/cyham/" title="Caroline's LinekdIn">LinkedIn</a>!</p>
       </div>
     </main>
-    <footer class="footer navbar-fixed-bottom">
-      <div class="row text-center">
-        <span class="text-center">&copy; 2020 Copyright:
-          <a href="https://cyham.com/"> Caroline Ham</a>
-        </span>
-      </div>
+    <footer id="footer">
+      <p>&copy; <span id="copyrightYear"></span><noscript>2021</noscript> <a href="https://cyham.com/">Caroline Ham</a></p>
     </footer>
   </body>
 </html>
